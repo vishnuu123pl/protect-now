@@ -8,7 +8,7 @@
         "Save restricted content",
         "bot"
     ],
-    "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
+    "repository": "https://github.com/vishnuu123pl/protect-now",
     "website": "",
     "success_url": "https://devgagan.in",
     "env": {
@@ -45,5 +45,8 @@
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
-    ]
+    ],
+    "scripts": {
+        "worker": "python -m main"
+    }
 }
